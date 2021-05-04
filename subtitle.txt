@@ -1,0 +1,61 @@
+(Music) Hello. Welcome to JavaScript Variables and
+Control Statements. After watching this video, you will be able
+to: Explain how variables are declared and used
+in JavaScript, and describe JavaScript control structures, Variables are declared with the var keyword
+followed by the variable name, as in the example, var age, Variables can be declared and initialized
+in one step, as in the example, var age = 54, You can assign a value to the variable at
+a later time, or reassign the value of a variable, Since JavaScript is a loosely typed language,
+you do not need to declare the data type of a variable. The variable assumes the data
+type from the value of the field during assignment and the type of a variable can change during
+program execution. Beware of not initializing variables though
+– the value of ‘var age’ – that has not been assigned a value, is not zero, or
+an empty String, or any other useful default value; it is ‘undefined’. Remember that the only keyword is ‘var’,
+and JavaScript has no way to know whether this variable is a numeric or a string, or
+anything else, until you provide a value. It therefore cannot decide by default whether
+to assign a zero or an empty string. Variable names, or identifiers, have these
+rules: The name must start with a letter, underscore
+(_), or a dollar sign ($), Subsequent characters can also be digits [0-9]
+Identifiers are case-sensitive. Variables also have a scope: Variables declared within a function have
+a scope local to that function, Variables declared outside of a function have
+a global scope. Variables with a global scope can be used
+elsewhere in the JavaScript program, Variables declared without the var keyword
+have a global scope. Variables that are not initialized have a
+value of undefined. You learn about functions shortly. Conditional statements are the set of commands
+that are used to perform different actions for different conditions: In JavaScript, the IF statement is the way
+the program logic decides which path to take based on the current values of variables or
+object properties, The JavaScript syntax for a decision begins
+with the keyword IF, followed by the condition to test; then the statements that run if the
+condition yields a true result. The true processing follows immediately after
+the test condition and is delimited by braces, unless it is a single statement. If the condition resolves to false, the statements
+that follow the else keyword are executed. Indentation of the statements of a compound
+control statement is not required in JavaScript However, a programmer can find that indentation
+helps in deciphering the control statement. Many JavaScript aware text editors automatically
+indent the control structure to make it more readable. Unlike Java, there is no block statement scope
+in JavaScript. Having no block statement scope means that
+variables declared inside one IF condition can be used outside the scope of that condition. JavaScript supports the switch statement as
+an alternative to the IF then ELSE control statements. The condition that is being tested is placed
+in parentheses that follow the switch keyword. The expression parameter of the switch statement
+can evaluate to any number or string value. The labels in the case statement are enclosed
+in quotation marks when the labels represent string values of the expression. The program looks for a case clause with a
+label that matches the value of expression and then transfers control to that clause,
+running the associated statements. If no matching label is found, the program
+looks for the optional default clause, and if found, transfers control to that clause,
+issuing the associated statements. The break keyword is used to prevent the code
+from automatically falling into the next case clause. The FOR loop repeats a series of statements
+for any number of times. The FOR loop takes three parameter arguments,
+namely the initial value, the condition that is being tested, and the increment expression. When the FOR loop runs, the following occurs: First, the initial expression is set, second, the conditional expression is evaluated. If this condition evaluates to true, the loop
+statements runs and the increment expression is updated. If the condition evaluates to false, the FOR
+loop terminates. If the loop does not terminate, control returns
+to the second step and the conditional expression is evaluated again. The WHILE loop is another common loop in JavaScript, The loop repeats while the condition remains
+true, The WHILE loop assumes that the condition
+reaches a conclusion and then exits the loop. Make sure that the condition evaluates to
+false at some point; otherwise the loop never terminates. In this video, you learned: Variables are declared using the keyword var
+followed by the variable name. You can initialize variables at the time of
+declaration or assign a value later. You do not need to declare the data type of
+a variable. Variables take their data type from the value assigned and can change type
+during program execution. Variables also have a scope . Variables declared within a function have
+a scope local to that function. Variables declared outside of a function have
+a global scope. Variables declared without the var keyword
+have a global scope. When executing, the flow of the program is
+directed by control statements, including: Conditional statements like if...then...else, Switch statements, repeat statements like for loops and while
+loops.
